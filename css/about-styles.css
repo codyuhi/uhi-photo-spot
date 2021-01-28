@@ -1,0 +1,7 @@
+@media only screen and (min-width: 991px) {
+    /* This is included here to make the footer color
+    fill in to the bottom of the page */
+    #footer-container {
+        padding-bottom: 100px;
+    }
+}

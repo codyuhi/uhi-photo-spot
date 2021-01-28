@@ -1,0 +1,148 @@
+html,
+body {
+    background-color: #f8f9fa;
+}
+
+hr {
+    width: 100%;
+}
+
+a {
+    color: cadetblue;
+}
+
+a > i {
+    color: rgba(0, 0, 0, .9);
+}
+
+img {
+    box-shadow: 3px 3px 3px grey;
+}
+
+.navbar,
+#footer-container {
+    background-image: linear-gradient(aliceblue,  #E1EBEE);
+}
+
+.icons > p > i:hover {
+    cursor: pointer;
+    color: cadetblue;
+}
+
+.nav-item {
+    font-family: 'Julius Sans One';
+    font-weight: bold;
+}
+
+.fancy-font {
+    font-family: 'Cinzel';
+}
+
+.quote-font {
+    font-family: 'Vollkorn SC';
+}
+
+p {
+    font-family: 'Scope One';
+}
+
+.navbar-brand,
+h1,
+h2 {
+    font-family: 'Adamina';
+}
+
+#page-container,
+#page,
+#header,
+#description {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.section {
+    width: 80vw;
+    text-align: center;
+}
+
+.icons-container {
+    margin: 25px 0 25px 0;
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+}
+
+.icons,
+.icons > p {
+    display: flex;
+    flex: 1;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.circular-img {
+    border-radius: 50%;
+    width: 60vw;
+    margin: 25px 25px 25px 25px;
+}
+
+.description-p {
+    margin: 25px 0 0 0;
+}
+
+#header-container {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    margin: 75px 0 50px 0;
+}
+
+#description-container {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+}
+
+#footer-container {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 100vw;
+}
+
+#footer {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 0 0 50px 0;
+    width: 100vw;
+}
+
+#footer-container > hr {
+    margin-top: 0;
+}
+
+#footer > p {
+    text-align: center;
+}
+
+@media only screen and (min-width: 991px) {
+    .section {
+        width: 60vw;
+    }
+
+    .circular-img {
+        width: 40vw;
+    }
+}
